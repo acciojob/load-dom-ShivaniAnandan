@@ -1,2 +1,5 @@
 //your JS code here. If required.
-document.body.innerHTMl = "<h1>DOM load success</h1>";
+var heading = document.createElement("h1");
+heading.innerText = "DOM load success";
+
+document.body.appendChild(heading);
